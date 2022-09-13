@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG_reader.cpp">
+      <Filter>PNG_reader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zlib.h" />
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="PNG_reader.h">
+      <Filter>PNG_reader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{dbc6bc01-4c39-4d22-b098-ac19e607f90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PNG_reader">
+      <UniqueIdentifier>{e051eb9c-da48-4fff-a076-77c886700f8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
